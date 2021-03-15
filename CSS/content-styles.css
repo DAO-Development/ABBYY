@@ -1,0 +1,910 @@
+
+header, .content .visual .container{
+  }
+  .online-ocr-visual {
+    margin-bottom: -9%;
+    padding-bottom: 8%;: 
+      height: 1px;
+      background-image: url("../assets/ocr_online_visual_chinese_2.jpg");
+      background-position-x: 40%;
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: auto 100%;
+  }
+  .visual {
+    background: none;
+  }
+  .online-ocr-visual .visual .visual-inner {
+    padding: 20px 0;
+      height: 20%;
+      min-height: 200px;
+  }
+  .online-ocr-visual .container {
+       height: 100%;
+      display: table-cell;
+      vertical-align: middle;
+  }
+  .online-ocr-visual .container li{
+    text-align: center;
+  }
+
+
+  .online-ocr-visual h1 {
+
+      width: 150%;
+      padding: 0 20% 0 5%;
+
+      font-size: 2.5em;
+      font-weight: 350;
+      margin-bottom: 35px;
+  }
+  .online-ocr-visual p {
+      padding: 0 20% 0 5%;
+      font-weight: 150;
+      width: 30vw;
+      font-size: 22px;
+      line-height: 27px;
+  }
+  .online-ocr-visual .visual-inner {
+
+      height: 100%;
+      margin: 0;
+  }
+  .menu-bar {
+    padding: 50px 0 33px;
+    padding-left: 6%;
+  }
+  .menu-bar li{
+    padding: 0 5px;
+  }
+
+  .online-ocr-service h3 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .online-ocr-service .to-do-description {
+    font-size: 18px
+  }
+  .online-ocr-service .to-do-comment {
+    font-size: 14px
+  }
+  .online-ocr-service .input-block {
+    margin: 0 auto;
+  }
+  .online-ocr-service .onlineOcrForm {
+  }
+  .onlineOcrForm .form-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  .onlineOcrForm .submit-container{
+  }
+.submit-container+.sc3 #ContentPlaceHolder1_Button1{
+  width: 200px !important;
+}
+  .onlineOcrForm .submit-container{
+    display: inline-block;
+  }
+  .online-ocr-service .input-field {
+      width: 100%;
+      height: 50px;
+      background-color: #ffffff;
+  }
+  .online-ocr-service .buttonUpload {
+      background-image: url(../assets/search.png);
+      background-repeat: no-repeat;
+      background-size: 90%;
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+      display: block;
+      float: right;
+      position: absolute;
+      top: 0px;
+      right: -25px;
+  }
+  .online-ocr-service p.inputtext.upload {
+    margin-bottom: 12px;
+	white-space: nowrap;
+  }
+  .online-ocr-service p.inputtext {
+    padding-top: 11px;
+  }
+  .online-ocr-service .voltar-button {
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 24px;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .online-ocr-service.page-one .voltar-button {
+    opacity: 0;
+  }
+  .online-ocr-service .pronto-button {
+    background: #c50b2f;
+    cursor: pointer;
+    display: inline-block;
+    color: #ffffff;
+    width: 100px;
+    height: 47px;
+    font-size: 24px;
+    /*margin-left: 104px;
+    vertical-align: top;*/
+    text-align: center;
+    /*padding-top: 5px;*/
+  }
+  .online-ocr-service .inputFile {
+    background: none;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 360px;
+    height: 50px;
+    overflow: hidden;
+  }
+  .online-ocr-service .inputtext {
+      color: #767779;
+      top: 0px;
+      font-size: 18px;
+      padding-left: 12px;
+      position: relative;
+      overflow: hidden;
+      line-height: 25px;
+  }
+  .online-ocr-service .inputtext.mail {
+    margin-bottom: 16px;
+  }
+  .online-ocr-service .inputcheckbox input {
+    margin-top: 16px;
+    width: 22px;
+    height: 22px;
+    opacity: 0;
+  }
+  .inputcheckbox input + label {
+  cursor: pointer;
+}
+.inputcheckbox input:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.inputcheckbox input:not(checked) + label {
+  position: relative;
+  padding: 0 0 0 60px;
+}
+  .online-ocr-service label {
+    font-weight: normal;
+    vertical-align: middle;
+    margin-left: -26px;
+    margin-bottom: 0;
+    margin-top: -10px;
+  }
+.inputcheckbox input:not(checked) + label::before {
+    content: '';
+    background: #ffffff;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin-right: 9px;
+    margin-bottom: -5px;
+    cursor: pointer;
+  }
+  .inputcheckbox input:checked + label:before {
+    content: '';
+    background-color: #ffffff;
+    background-image: url(../Images/submit-news.jpg);
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin-right: 9px;
+    margin-bottom: -5px;
+    cursor: pointer;
+  }
+  .online-ocr-service.page-two label {
+    font-size: 18px;
+  }
+  .online-ocr-service.page-two .submit-container, .online-ocr-service.page-three .submit-container {
+    margin-left: 26px;
+  }
+  .online-ocr-service.page-three .submit-container, .online-ocr-service.page-three .voltar-button {
+    margin-top: 30px;
+  }
+  .online-ocr-service.page-four .link {
+    margin-top: 22px;
+  }
+  .service-features {
+  text-align: center;
+  padding: 35px 0;
+  }
+  .service-features .link-list {
+  padding: 11px 0;
+  overflow: auto;
+  }
+  .service-features .link-list .link {
+      margin: 0 0 22px;
+  }
+  .service-features h2 {
+    margin-top: 0;
+  }
+  .service-features .st_sharethis_hcount span {
+    display: none !important;
+  }
+  .our-products {
+    padding: 25px 0 40px;
+  }
+  .our-products h2 {
+    margin-top: 0;
+    font-size: 36px;
+  }
+  .our-products .title {
+  }
+  .our-products .product-fine .product-feature {
+
+  background-image: url(../assets/left.png);
+  }
+  .our-products .product-recserver .product-feature {
+  background-image: url(../assets/right.png);
+  }
+  .our-products .product-feature {
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  padding-bottom: 22px;
+  }
+  .our-products .product-feature .description {
+  text-align: center;
+  }
+  .our-products .product-title h2 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  }
+  .our-products .product-title p {
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 300;
+  height:40px;
+  display: block;
+  }
+  .our-products .product-icon {
+  text-align: center;
+  }
+  .our-products .product-icon img {
+    margin: 5%;
+  }
+  .our-products .feature-list {
+    text-align: left;
+    margin-top: 25px;
+    padding-left: 19px;
+  }
+  .our-products .feature-list .feature-icon, .our-products .feature-list .feature-text {
+    display: table-cell;
+  }
+  .our-products .feature-list .feature-item {
+    margin-bottom: 35px;
+  }
+  .our-products .feature-list .feature-icon {
+    vertical-align: middle;
+  }
+  .our-products .feature-list .feature-text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .our-products .product-fine .feature-list .feature-icon::before {
+      content: '';
+      display: inline-block;
+      background-image: url(../Images/check_green.png);
+      width: 27px;
+      height: 21px;
+      margin-right: 24px;
+  }
+  .our-products .product-recserver .feature-list .feature-icon::before {
+      content: '';
+      display: inline-block;
+      background-image: url(../Images/check_blue.png);
+      width: 27px;
+      height: 21px;
+      margin-right: 24px
+  }
+  .our-products .product-feature .link {
+    text-align: center;
+    margin-top: 12px;
+  }
+  .our-products .product-feature .description .item-comment {
+    margin-left: 58px;
+    margin-top: 12px;
+    font-size: 12px;
+  }
+  .button {
+    text-transform: none;
+    font-size: 24px !important;
+    font-weight: 300;
+    background: white;
+    color: black;
+  }
+  .st_sharethis_hcount.button {
+    font-size: 18px !important;
+  }
+  .button-green {
+    color: #ffffff;
+    background-color: #8dc540;
+    border: 1px solid #8dc540 !important;
+  }
+  .button-green:hover, .button-blue-marine:hover {
+    color: #ffffff;
+  }
+  .button-blue-marine {
+    color: #ffffff;
+    background-color: #3b7db0;
+    border: 1px solid #3b7db0 !important;
+  }
+  .notready-button {
+    opacity: 0.6;
+    cursor: auto !important;
+  }
+  @media (max-width: 637px) {
+    .page-one .inputtext.upload {
+      margin-left: 0;
+    }
+    .page-one .buttonUpload {
+      margin-left: 82%;
+    }
+    .page-one .inputFile {
+      left: 0;
+      width: 300px;
+    }
+  }
+  @media (max-width: 533px) {
+    .page-one .submit-container {
+      margin-top: 15px;
+    }
+  }
+  @media (max-width: 737px) {
+    .page-two .voltar-button,
+    .page-two .onlineOcrForm,
+    .page-two .form-container,
+    .page-two .submit-container,
+    .page-three .voltar-button,
+    .page-three .onlineOcrForm,
+    .page-three .form-container,
+    .page-three .submit-container {
+      display: block;
+    }
+    .page-two .voltar-button,
+    .page-two .submit-container,
+    .page-three .voltar-button,
+    .page-three .submit-container {
+      margin: 0 auto !important;
+    }
+    .page-two .form-container, .page-three .form-container {
+      margin: 16px auto;
+    }
+    .page-two .input-field, .page-three .input-field {
+      margin-left: 0;
+    }
+    .online-ocr-service.page-three .onlineOcrForm p {
+        margin: 0 auto 12px;
+    }
+  }
+  @media (max-width: 767px) {
+
+    .contacts-bar{
+      width: 100%;
+    }
+      .our-products .product-fine {
+        margin-bottom: 70px;
+      }
+  }
+  @media (max-width: 632px) and (min-width: 448px) {
+    .online-ocr-visual {
+        height: auto;
+    }
+  }
+  @media (min-width: 768px) {
+      .online-ocr-visual .visual-inner {
+          margin: 0 auto;
+      }
+  }
+  @media (min-width: 768px) {
+  .service-features .link-list .link {
+  display: inline-block;
+  margin-right: 22px;
+  }
+  }
+  @media (max-width: 991px) and (min-width: 768px) {
+    .our-products h2 {
+      font-size: 27px;
+    }
+    .our-products .product-title p {
+      font-size: 20px;
+    }
+    .our-products .feature-list .feature-text {
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 991px){
+    .service-features>.container>.row{
+  display: flex;
+}
+
+
+#form-1 p{
+  display: inline-block;
+}
+
+.f-2 .to-do-comment{
+  text-align: center;
+  margin: 5px auto;
+}
+form{
+  padding: 2% 0;
+}
+.onlineOcrForm{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+ .onlineOcrForm .pronto-button{
+  grid-column: 1/2;
+ }
+ .onlineOcrForm .form-container{
+  grid-column: 2/3;
+ }
+ .onlineOcrForm .submit-container{
+  grid-column: 3/4;
+ }
+
+ #form1 .to-do-comment{
+  grid-column: 1/4;
+ }
+
+ .to-do-description{
+  height: 3em;
+ }
+    .online-ocr-visual .visual .visual-inner {
+      padding: 20px 1%;
+    }
+    header, footer{
+      padding: 0 6%;
+    }
+
+    #form-2 .voltar-button{
+      float: left;
+      margin: auto 0;
+    }
+    .col-sm-2{
+      float: left;
+      width: 15%;
+
+    }
+    .mail{
+    }
+    .online-ocr-service .buttonUpload {
+    }
+
+    .col-sm-12 ul{
+      width: 200%;
+    }
+    #form-1{
+    }
+  }
+  @media (max-width: 991px) {
+
+    .online-ocr-service{
+      text-align: center;
+    }
+    .form-container{
+      width: 80% !important;
+      margin-top:16px!important;
+    }
+
+    .online-ocr-service .buttonUpload {
+      width: 50px;
+    }
+
+    .online-ocr-service{
+      margin-top: -52px !important;
+    }
+    .col-sm-12>.centered li{
+      height: 100px;
+      padding-bottom: 100px !important;
+    }
+    .online-ocr-visual {
+      background-size: auto 10  0%;
+    }
+  }
+  @media (max-width: 991px) {
+
+
+.online-ocr-service {
+padding: 30px 0;
+  }
+  .submit-container{
+    margin-bottom: 10px;
+  }
+    #form-2 .form-container{
+      width: 100% !important;
+
+    }
+    .online-ocr-visual p {
+      width: 90vw;
+    }
+    .s-c-3, #second-b{
+      display: inline-block;
+            float: none !important;
+    }
+    #second-b{
+      display: block;
+    }
+
+.form-container{
+  margin: 0 auto;
+}
+#fc0 input{
+  width: 80vw;
+}
+
+div.sc0{
+}
+
+    .online-ocr-service{
+      margin-top: -70px !important;
+    }
+    .menu-bar .container{
+      width: 10% !important;
+    }
+
+    .menu-bar li{
+      width: 24% !important;
+      font-size: 0.9em;
+    }
+    .menu-bar{
+      margin: 0;
+
+      width: 100%;
+    }
+    .col-sm-2 img{
+      padding: 4%;
+      width: 40%;
+    }
+    .col-sm-2{
+      font-size: 1.3em;
+    }
+    .col-sm-6{
+      width: 100%;
+      float: none !important;
+    }
+    .online-ocr-service.page-one .voltar-button {
+    }
+  }
+  @media (min-width: 992px) {
+     .online-ocr-service .buttonUpload {
+      width: 50px;
+    }
+
+#second-b{
+  float: right;
+}
+  .service-features .link-list .link {
+    width: 20%;
+    float: left;
+    margin: 0;
+  }
+  }
+
+@media (min-width: 991px){
+  .online-ocr-service {
+    height: 270px;
+    padding: 30px 0 13px;
+  }
+
+  #form-2 .voltar-wrap a{
+  margin-top: 50px;
+}
+  #form-2 .submit-container{
+    float: right;
+    margin-left: 5%;
+
+    }
+
+#form-2 .form-container{
+    margin-left: 2% !important;
+    padding-left: 2%;
+
+}
+
+  .online-ocr-visual .visual-inner {
+    margin-left: 4% !important;
+  }
+
+main{
+  background: white !important;
+  margin: 0 auto;
+  padding: 0 6%;
+}
+} 
+.col-sm-2 p:nth-child(1){
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+.col-sm-2 p:nth-child(2){
+  width: 100%;
+  font-size: 0.9em;
+
+}
+.col-sm-2{
+  margin: 0 auto;
+}
+
+.offer>.centered p{
+  margin: 0 auto;
+  text-align: center;
+}
+@media (min-width: 991px){
+  
+  .contacts-bar{
+    /*float: right;*/
+  }
+  .online-ocr-service .col-sm-12>.centered{
+    width: 600px;
+    text-align: left;
+  }
+  .online-ocr-service  .col-sm-12>.centered *{
+    text-align: center;
+  }
+.col-sm-6{
+  width: 50%;
+}
+}
+
+.products{
+  width: 100%;
+}
+
+.offer{
+  border: 1px solid rgba(0,0,0,0); /*БЕГИТЕ, ГЛУПЦЫ*/
+  display: block;
+  padding: 5% 0;
+}
+
+.contacts-bar{
+  padding: .8%;
+  height: 10%;
+}
+.contacts-bar li{
+  display: inline-block;
+}
+.contacts-bar img{
+  height: 40px;
+}
+.col-sm-12>.centered  ul{
+  margin-left: 0% !important;
+}
+
+.col-sm-12>.centered li{
+  margin: 0 auto;
+  width: 15%;
+  height: 90PX;
+  display: inline-block;
+  padding-top: 1.1%;
+}
+
+.col-sm-12>.centered li a{
+  color: white;
+}
+.col-sm-12>.centered li#chosen a{
+  color: black;
+}
+#chosen{
+  background: #e7ebf0;
+  border-top: 2px solid #a81332;
+}
+
+.menu-bar{
+  margin-bottom: -50px;
+  background-color: rgba(231, 235, 240, 0.5);
+
+}
+html{
+  overflow-x:hidden; 
+}
+
+a{
+  color: black;
+  text-decoration: none !important;
+}
+
+
+  
+
+.input-field2{
+  margin: 2% auto!important;
+}
+
+
+.col-sm-6{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  float: left;
+}
+
+.submit-container{
+  display: block;
+}
+
+.online-ocr-service{
+  padding: 1%;
+}
+
+
+
+.menu-bar .container{
+  width: 100%;
+
+}
+
+.feature-content .description{
+  height: 600px;
+}
+
+.s-c-3{
+  margin-top: 6% !important; 
+
+}
+.s-c-3:nth-child(1){
+  float: left;
+}
+.col-sm-12{
+}
+
+.to-do-comment input{
+  border: none;
+
+}
+
+/* для элемента input c type="checkbox" */
+.custom-checkbox>input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+/* для элемента label, связанного с .custom-checkbox */
+.custom-checkbox>span {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+/* создание в label псевдоэлемента before со следующими стилями */
+.custom-checkbox>span::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+/* стили при наведении курсора на checkbox */
+.custom-checkbox>input:not(:disabled):not(:checked)+span:hover::before {
+  border-color: #b3d7ff;
+}
+
+/* стили для активного чекбокса (при нажатии на него) */
+.custom-checkbox>input:not(:disabled):active+span::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+
+/* стили для чекбокса, находящегося в фокусе */
+.custom-checkbox>input:focus+span::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.custom-checkbox>input:focus:not(:checked)+span::before {
+  border-color: #80bdff;
+}
+
+/* стили для чекбокса, находящегося в состоянии checked */
+.custom-checkbox>input:checked+span::before {
+  border-color: #0b76ef;
+  background-image: url("../Images/check_blue.png");
+  background-size: 100%;
+}
+
+/* стили для чекбокса, находящегося в состоянии disabled */
+.custom-checkbox>input:disabled+span::before {
+  background-color: #e9ecef;
+}
+
+
+.white_b{
+  background: white !important; 
+  color: black !important;
+  border: 1px solid black !important;
+}
+
+
+.pronto-button, .button, .voltar-button, .button-3{
+  border-radius:4px;
+}
+
+.voltar-button{
+  height: 47px;
+
+  padding:  1.5% 2% !important;
+  margin-top: 2px;
+
+}
+
+.voltar-button a{
+  padding: 2%;
+}
+
+#form-2 .form-container{
+  width: 100%;
+}
+#form-2 .inputtext{
+  margin: 2% 0;
+  padding: 5px 0 !important;
+  width: 103% !important;
+  margin-left: -4%;
+}
+
+#form-2 .submit-container{
+  margin-top: 35px !important;
+}
+#form-2 .voltar-wrap{
+  padding: 20px;
+  vertical-align: center;
+}
+
+
+
+.button-3{
+  width: auto;
+  padding: 15px;
+  background: #c50b2f;
+}
+
+.button-3 a{
+  color: white;
+}
+
+.sc3{
+  padding: 0.7%;
+  width: 55%;
+}
+h3{
+  font-weight: normal !important;
+}
+
+.our-products .centered{
+  text-align: center;
+}
+
+input.inputtext{
+  text-align: left !important;
+  font-size: 0.9em !important;
+}
+
+a.pronto-button{
+  margin-top: 0%;
+}
+

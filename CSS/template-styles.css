@@ -1,0 +1,984 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+html {
+    font-size: 17px;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    font-family: "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    color: #444;
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 1.42857;
+    background-color: #fff;
+}
+footer, header, menu, nav, section {
+      display: block;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.centered {
+    margin: 0 auto;
+}
+.container, .top-menu .dropdown-wide .dropdown-menu .drop-down-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container:before, .top-menu .dropdown-wide .dropdown-menu .drop-down-wrapper:before, .container:after, .top-menu .dropdown-wide .dropdown-menu .drop-down-wrapper:after {
+    content: " ";
+    display: table;
+}
+.container:after, .top-menu .dropdown-wide .dropdown-menu .drop-down-wrapper:after {
+    clear: both;
+}
+.header-main {
+    height: 62px;
+}
+.header-main .logo {
+    display: inline-block;
+    background: url(../Images/logo.svg) no-repeat;
+    /*background-size: 2604px 2300px;*/
+    width: 95px;
+    height: 27px;
+    margin: 18px 0 0;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    display: block;
+    float: left;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+a {
+    text-decoration: none;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a, button {
+    -webkit-transition: all 0.2s ease-out 0.05s;
+    -o-transition: all 0.2s ease-out 0.05s;
+    transition: all 0.2s ease-out 0.05s;
+}
+input, button, select, textarea, #form-1 p {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input, button, select, textarea #form-1 p {
+    outline: none;
+    background: none;
+    border: none;
+    padding: 0;
+    text-align: left;
+    box-shadow: none;
+}
+a, a:focus {
+    color: #2b57cd;
+}
+a, a:visited, a:active, a:focus {
+    text-decoration: none;
+}
+/*a:visited {
+    color: #855eae;
+}*/
+a.button-green:hover{
+    color:#3b7db0;
+}
+a.button-blue-marine:hover{
+    color:#8dc540;
+}
+ol, ul {
+    list-style: none;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.header-main .header-nav {
+    float: right;
+}
+.header-main .header-nav>li {
+    list-style: none;
+    float: left;
+    display: block;
+}
+.visible-xs-block, .visible-xs-inline, .visible-xs-inline-block, .visible-sm-block, .visible-sm-inline, .visible-sm-inline-block, .visible-md-block, .visible-md-inline, .visible-md-inline-block, .visible-lg-block, .visible-lg-inline, .visible-lg-inline-block {
+    display: none !important;
+}
+.header-main .header-nav .top-menu-toggle {
+    height: 62px;
+    display: block;
+    padding: 0 11px;
+}
+.header-main .header-nav>li>a {
+    color: #444;
+    text-transform: uppercase;
+    font-size: 13px !important;
+    font-weight: 600;
+}
+.header-main .header-nav .select-region-button {
+    height: 62px;
+    padding: 0 11px;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+.header-main .header-nav .select-region-button:hover:after, .header-main .header-nav .select-region-button:active:after, .header-main .header-nav .select-region-button:focus:after, .header-main .header-nav .select-region-button.opened:after {
+    content: '';
+    display: inline-block;
+    background: url(../Images/drop-down.svg) no-repeat;
+    width: 13px;
+    height: 25px;
+}
+.header-main .header-nav .select-region-button:after {
+    content: '';
+    display: inline-block;
+    background: url(../Images/drop-down.svg) no-repeat;
+    width: 13px;
+    height: 25px;
+    vertical-align: sub;
+}
+.header-main .header-nav .header-search .header-search-text {
+    display: block;
+    font: 14px/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    font: 0.82353rem/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    color: #666;
+    width: 100%;
+    position: absolute;
+    top: 62px;
+    left: 0;
+    height: 0;
+    line-height: 41px;
+    background: #fff;
+    z-index: 30;
+    border-radius: 0;
+    -webkit-transition: height 0.5s ease-out 0.05s;
+    -o-transition: height 0.5s ease-out 0.05s;
+    transition: height 0.5s ease-out 0.05s;
+}
+.header-main .header-nav .header-search .button-search-toggle {
+    height: 62px;
+    padding: 0 11px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    -webkit-transition: all 0.1s ease-out 0.05s;
+    -o-transition: all 0.1s ease-out 0.05s;
+    transition: all 0.1s ease-out 0.05s;
+}
+.header-main .header-nav .header-search .button-search-toggle:after {
+    content: '';
+    display: inline-block;
+    background: url(../Images/search.svg) no-repeat;
+    width: 19px;
+    height: 21px;
+    vertical-align: sub;
+}
+.header-main .header-nav .header-search .button-search-submit {
+    height: 0;
+    width: 0;
+    font: 0/0 a;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.header-main .header-nav .select-region-button:hover, .header-main .header-nav .select-region-button:active, .header-main .header-nav .select-region-button:focus, .header-main .header-nav .select-region-button.opened {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-main .header-nav .dropdown-menu {
+    border: 3px solid #D7DCE1;
+    border-left: none;
+    border-right: none;
+    top: 62px;
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background: #e6ebf0;
+    z-index: 30;
+    padding: 22px 41px;
+}
+.row {
+    }
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7,
+.col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12 , .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header-main .header-nav .dropdown-menu h6 {
+    font: 600 16px/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    font: 600 0.94118rem/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    letter-spacing: 1px;
+    color: #455a64;
+    line-height: 33px;
+    text-transform: uppercase;
+    margin: 11px 0 22px;
+}
+.header-main .header-nav .top-menu-toggle:after {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 21px;
+    margin: 0 auto;
+    background-image: -webkit-linear-gradient(top, #828c96 3px, transparent 3px, transparent 9px, #828c96 9px, #828c96 12px, transparent 12px, transparent 18px, #828c96 18px);
+    background-image: -o-linear-gradient(top, #828c96 3px, transparent 3px, transparent 9px, #828c96 9px, #828c96 12px, transparent 12px, transparent 18px, #828c96 18px);
+    background-image: linear-gradient(to bottom, #828c96 3px, transparent 3px, transparent 9px, #828c96 9px, #828c96 12px, transparent 12px, transparent 18px, #828c96 18px);
+}
+.header-main .header-nav .top-menu-toggle:hover:after, .header-main .header-nav .top-menu-toggle:active:after, .header-main .header-nav .top-menu-toggle:focus:after {
+    content: '';
+    background-image: -webkit-linear-gradient(top, #607acd 3px, transparent 3px, transparent 9px, #607acd 9px, #607acd 12px, transparent 12px, transparent 18px, #607acd 18px);
+    background-image: -o-linear-gradient(top, #607acd 3px, transparent 3px, transparent 9px, #607acd 9px, #607acd 12px, transparent 12px, transparent 18px, #607acd 18px);
+    background-image: linear-gradient(to bottom, #607acd 3px, transparent 3px, transparent 9px, #607acd 9px, #607acd 12px, transparent 12px, transparent 18px, #607acd 18px);
+}
+.header-main .header-nav .select-region-button {
+    height: 62px;
+    padding: 0 11px;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+.header-main .header-nav .select-region-button:after {
+    content: '';
+    display: inline-block;
+    background: url(../Images/select-region.svg) no-repeat;
+    width: 13px;
+    height: 25px;
+    vertical-align: sub;
+}
+.header-main .header-nav .select-region-button:hover, .header-main .header-nav .select-region-button:active, .header-main .header-nav .select-region-button:focus, .header-main .header-nav .select-region-button.opened {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-main .header-nav .select-region-button:hover:after, .header-main .header-nav .select-region-button:active:after, .header-main .header-nav .select-region-button:focus:after, .header-main .header-nav .select-region-button.opened:after {
+    content: '';
+    display: inline-block;
+    background: url(../Images/select-region-blue.svg) no-repeat;
+    width: 13px;
+    height: 25px;
+}
+.header-main .header-nav .dropdown-menu a {
+    font: 16px/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    font: 0.94118rem/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    display: inline-block;
+    margin: 0 0 22px;
+    position: relative;
+}
+.header-main .header-nav .select-region-global {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-global:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-global.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .dropdown-menu .link-description {
+    font: 13px/14px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    font: 0.76471rem/14px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    color: #444;
+    position: relative;
+    top: -5px;
+    margin-bottom: 6px;
+}
+.header-main .header-nav .select-region-canada {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-canada:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-canada.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-mexico {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-mexico:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-mexico.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-north-america {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-north-america:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-north-america.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-brazil {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-brazil:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-brazil.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-south-america {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-south-america:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-south-america.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-france {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-france:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-france.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-germany {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-germany:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-germany.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-italy {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-italy:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-italy.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-united-kingdom {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-united-kingdom:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-united-kingdom.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-spain {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-spain:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-spain.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-western-europe {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-western-europe:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-western-europe.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-eastern-europe {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-eastern-europe:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-eastern-europe.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-czech-republic {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-czech-republic:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-czech-republic.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-hungary {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-hungary:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-hungary.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-poland {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-poland:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-poland.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-romania {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-romania:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-romania.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-russia {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-russia:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-russia.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-slovakia {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-slovakia:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-slovakia.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-ukraine {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-ukraine:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-ukraine.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-china {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-china:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-china.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-sea {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-sea:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-sea.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-israel {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-israel:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-israel.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-japan {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-japan:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-japan.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-middle-east {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-middle-east:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-middle-east.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-south-korea {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-south-korea:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-south-korea.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-turkey {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-turkey:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-turkey.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .select-region-australia {
+    padding-left: 35px;
+}
+.header-main .header-nav .select-region-australia:before {
+    content: '';
+    display: inline-block;
+    background: url(../Images/flag-australia.svg) no-repeat;
+    width: 22px;
+    height: 14px;
+    margin: 0 11px 0 -35px;
+    position: absolute;
+    top: 3px;
+    border: 1px solid #AFB9C3;
+    box-sizing: content-box;
+}
+.header-main .header-nav .header-search .button-search-toggle:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-main .header-nav .header-search .header-search-text {
+    display: block;
+    font: 14px/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    font: 0.82353rem/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    color: #666;
+    width: 100%;
+    position: absolute;
+    top: 62px;
+    left: 0;
+    height: 0;
+    line-height: 41px;
+    background: #fff;
+    z-index: 30;
+    border-radius: 0;
+    -webkit-transition: height 0.5s ease-out 0.05s;
+    -o-transition: height 0.5s ease-out 0.05s;
+    transition: height 0.5s ease-out 0.05s;
+}
+.header-main .header-nav .header-search.header-search-opened .header-search-text {
+    height: 44px;
+    border: 3px solid #d9d9d9;
+    box-sizing: border-box;
+    padding: 0 99px 0 12px;
+}
+.header-main .header-nav .header-search.header-search-opened .button-search-submit:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #0032b9;
+}
+.header-main .header-nav .header-search .button-search-toggle {
+    height: 62px;
+    padding: 0 11px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    -webkit-transition: all 0.1s ease-out 0.05s;
+    -o-transition: all 0.1s ease-out 0.05s;
+    transition: all 0.1s ease-out 0.05s;
+}
+.header-main .header-nav .header-search .button-search-submit {
+    height: 0;
+    width: 0;
+    font: 0/0 a;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.header-main .header-nav .header-search.header-search-opened .button-search-submit {
+    text-align: center;
+    -webkit-transition: color 0.1s ease-out 0.05s,height 0s ease-out 0.5s;
+    -o-transition: color 0.1s ease-out 0.05s,height 0s ease-out 0.5s;
+    transition: color 0.1s ease-out 0.05s,height 0s ease-out 0.5s;
+    font: 600 16px/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    font: 600 0.94118rem/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    position: absolute;
+    z-index: 31;
+    height: 44px;
+    width: auto;
+    line-height: 44px;
+    padding: 0 11px;
+    right: 0;
+    top: 62px;
+}
+.content p, .content li, .content .p {
+    font: 17px/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    font: 1rem/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    color: #444;
+}
+.content h2 {
+    font: 300 35px/44px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    font: 300 2.05882rem/44px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    color: #444;
+    margin: 33px 0 11px;
+}
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    text-transform: uppercase;
+    -webkit-transition: all 0.1s ease-out 0.05s;
+    -o-transition: all 0.1s ease-out 0.05s;
+    transition: all 0.1s ease-out 0.05s;
+    height: 44px !important;
+    line-height: 42px !important;
+    padding: 0 22px !important;
+    font-size: 17px !important;
+    border: 1px solid !important;
+    border-radius: 3px !important;
+}
+.button {
+    text-transform: none;
+    font-size: 24px !important;
+    font-weight: 300;
+}
+.button:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+footer, footer a {
+    color: #fff;
+}
+footer {
+    background: #323c46;
+}
+footer .footer-socials-links {
+    border-top: 1px solid #414b55;
+}
+ol, ul {
+    list-style: none;
+}
+footer .footer-socials-links .socials-bar {
+    margin: 0;
+    padding: 0;
+}
+footer .footer-socials-links .socials-bar:before, footer .footer-socials-links .socials-bar:after {
+    content: " ";
+    display: table;
+}
+footer .footer-socials-links .socials-bar li {
+    margin-right: 11px;
+    padding: 11px 0;
+}
+footer .footer-socials-links .socials-bar li {
+    float: left;
+    display: block;
+    position: relative;
+}
+footer .footer-socials-links .socials-bar .sl {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    display: block;
+    background-color: #5f6973;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 100px;
+}
+footer .footer-socials-links .socials-bar .sl:before {
+    content: '';
+    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle;
+}
+footer .footer-socials-links .socials-bar .sl-linkedin:before {
+    display: inline-block;
+    background: url(../Images/in.svg) no-repeat;
+    width: 19px;
+    height: 19px;
+}
+footer .footer-socials-links .socials-bar .sl-facebook:before {
+    display: inline-block;
+    background: url(../Images/fb.svg) no-repeat;
+    width: 12px;
+    height: 22px;
+}
+footer .footer-socials-links .socials-bar .sl-twitter:before {
+    display: inline-block;
+    background: url(../Images/tw.svg) no-repeat;
+    width: 22px;
+    height: 18px;
+}
+footer .footer-socials-links .socials-bar .sl-youtube:before {
+    display: inline-block;
+    background: url(../Images/yt.svg) no-repeat;
+    width: 22px;
+    height: 15px;
+}
+footer .footer-socials-links .socials-bar .sl-blog-abbyy:before {
+    display: inline-block;
+    background: url(../Images/ba.svg) no-repeat;
+    width: 13px;
+    height: 19px;
+}
+footer .footer-links, footer .footer-links a {
+    font: 13px/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    font: 0.76471rem/22px "Open Sans",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    color: #fff;
+    line-height: 13px;
+}
+footer .footer-links {
+    border-top: 1px solid #414b55;
+    padding: 21px 0 20px;
+}
+footer .footer-links .pull-right {
+    float: none !important;
+}
+.separated-link-bar {
+    margin: 0;
+    padding: 0;
+}
+.pull-right {
+    float: right !important;
+}
+.separated-link-bar:before, .separated-link-bar:after {
+    content: " ";
+    display: table;
+}
+.separated-link-bar:after {
+    clear: both;
+}
+.separated-link-bar li {
+    border-right: solid 1px;
+    margin-right: 11px;
+    padding-right: 11px;
+}
+.separated-link-bar li {
+    float: left;
+    display: block;
+    position: relative;
+}
+footer .footer-links .pull-left {
+    float: none !important;
+}
+footer .copyright {
+    margin: 22px 0 0 0;
+}
+.separated-link-bar li:last-child, .separated-link-bar li:only-child {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="google-site-verification" content="bogivucEuLy9XwEuhxquUikFE0u5mI0KpIDea92MhYM" />
+    <title>Online OCR</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link href="CSS/template-styles.css" rel="stylesheet" />
+    <link href="CSS/media-styles-template.css" rel="stylesheet" />
+    <link href="CSS/content-styles.css" rel="stylesheet" />
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/tether/1.3.1/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/dropdown.js"></script>
+    <script type="text/javascript" src="JS/drop-down.js"></script>
+    <script type="text/javascript" src="JS/drop-down-init.js"></script>
+    <script type="text/javascript" src="JS/header-search.js"></script>
+    <script type="text/javascript" src="JS/form-file-validation.js"></script>
+    <script type="text/javascript" src="JS/form-email-validation.js"></script>
+    <script type="text/javascript" src="JS/tooltip.js"></script>
+    <script type="text/javascript" src="JS/popover.js"></script>
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({ publisher: "db583756-db1a-4680-be55-76d4dd420e05", doNotHash: false, doNotCopy: false, hashAddressBar: true, onhover: false });</script>
+  </head>
+ 
+<body>
+<header>
+    <div class="container">
+        <nav class="header-main">
+            <a href="http://www.abbyy.com/pt-br/" class="logo" title="ABBYY">ABBYY</a>
+            <ul class="header-nav">
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="content">
+  <section class="online-ocr-visual">
+    <section class="visual">
+        <div class="visual-inner">
+            <div class="container">
+                <h1 style="color: #ffffff;">ABBYY在线识别服务</h1>
+                <p style="color: #ffffff;">ABBYY提供免费文字识别 —— 在线OCR服务，让你转换扫描和拍摄图像、PDF文档到可编辑、复制、搜索的Microsoft Word文件格式。</p>
+            </div>
+
+        </div> 
+
+         <section class="menu-bar page-one">
+        <div class="container">
+            <div class="row clearfix">
+                    <div class="col-sm-12">
+                        <div class="centered">
+                          <ul>
+                            <li id="chosen"><a href="index0.html">选择文件</a> </li>
+                            <li><a href="index1.html">提供邮件 </a></li>
+                            <li><a href="index2.html">审批信息 </a> </li>
+                            <li><a href="index3.html">获取结果 </a></li>
+                          </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+      </section>
+
+    </section>
+
+  </section>
+
+
+  <section class="online-ocr-service page-one" style="margin-top: -3%; background-color:#e7ebf0">
+    <div class="container">
+        <div class="row clearfix">
+                <div class="col-sm-12">
+                    <div class="centered">
+                      <h3>选择要转换的图像</h3>
+                      <div class="to-do-description">支持的格式：PDF, JPG, PNG, BMP, TIFF<br />推荐的图像质量至少达到300 DPI</div>
+                      <div class="input-block" id="form-1">
+                        
+                          <form enctype="multipart/form-data" nofocuson method="post" id="form1" class="onlineOcrForm" style="position: relative;" action="">
+                            <div style="opacity:0"class="voltar-button">
+                              <a class="pronto-button white_b"><回来</a>
+                            </div>
+
+
+                              <div class="form-container">
+
+                                <input style="width: 85%;margin-left:-55px"id="file_sub" class="inputtext upload input-field" type="text" placeholder="" readonly="readonly" />
+                           
+                                <span class="buttonUpload">
+                                   <input id="ContentPlaceHolder1_inputFileId" name="" class="inputFile" style="cursor: pointer;" type="file" onchange="setFileSelectedState();" />
+                                </span>
+
+                               
+                              </div>
+                               <div class="submit-container">
+                                <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="上传 >" id="ContentPlaceHolder1_Button2" title="Next" class="pronto-button notready-button" style="display: inline-block;">
+                                <input type="submit" name="ctl00$ContentPlaceHolder1$btnConvert" value="上传 >" onclick="validateBeforeSubmit();" id="ContentPlaceHolder1_btnConvert2" class="pronto-button" title="Next" style="display: none;cursor: pointer;">
+                              </div>
+                         
+                        </form>
+                      </div>
+
+
+                 
+                      <div class="to-do-comment">该服务仅转换文档的前5页</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+  </section>
+  <main>
+  <section class="centered service-features">
+    <div class="container">
+        <div class="row clearfix">
+                
+                <div class="col-sm-2">
+                    <div>
+                      <p><img src="assets/icons/svg/icon-1-languages.svg" alt="fr-features-countries" /></p>
+                      <p>处理简体中文<br>和英文的文件</p>
+                    </div>
+                </div>
+                <div class="col-sm-2 ">
+                    <div>
+                      <p>		<img src="assets/icons/svg/icon-2-convert.svg" alt="fr-features-pages" /></p>
+                      <p>每天最多可以使用<br>10次免费转换服务</p>
+                    </div>
+                </div>
+                <div class="col-sm-2 ">
+                    <div>
+                      <p>		<img src="assets/icons/svg/icon-3-layout.svg" alt="pen_77x77" /></p>
+                      <p>保留您文档<br>的布局</p>
+                    </div>
+                </div>
+                <div class="col-sm-2 ">
+                    <div>
+                      <p>		<img src="assets/icons/svg/icon-4-secure.svg" alt="lock_77x77" /></p>
+                      <p>放心，保证安全。<br>密码保护的PDF不能处理</p>
+                    </div>
+                </div>
+                <div class="col-sm-2 ">
+                    <div>
+                      <p>		<img src="assets/icons/svg/icon-5-premium.svg" alt="checked_77x77" /></p>
+                      <p>利用屡获殊荣<br>的OCR技术</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+  </section>
+  <section class="our-products" >
+    <div class="container">
+        <div class="row clearfix">
+                <div class="offer col-sm-12"style="background-color:#e7ebf0">
+                    <div class="centered title">
+
+                        <h2>需要更多功能吗？</h2>
+                        <p>试用我们提供更多特征和识别语言的产品和解决方案。</p>
+                    </div>
+                </div>
+                <section class="products" style="background: white !important">
+                <div class="col-sm-6 ">
+                    <div class="product-fine" style="background-image:url(Images/back_fine.png)">
+                      <div class="product-feature">
+                        <div class="feature-content">
+                          <div class="description">
+                            <div class="product-icon"><img src="assets/finereader-80x77.svg" alt="" /></div>
+                            <div class="product-title">
+                              <h2>ABBYY FineReader</h2>
+                              <p>个人使用和中小企业</p>
+                            </div>
+                            <div class="feature-list">
+                              <div class="feature-item">
+                                <div class="feature-icon"></div>
+                                <div class="feature-text">使用OCR对纸质文档及扫描件进行数字化处理</div>
+                              </div>
+                              <div class="feature-item">
+                                <div class="feature-icon"></div>
+                                <div class="feature-text">编辑，保护隐私与协同工作PDF</div>
+                              </div>
+                              <div class="feature-item">
+                                <div class="feature-icon"></div>
+                                <div class="feature-text">比较不同格式的文档</div>
+                              </div>
+                              <div class="feature-item" style="margin-bottom: 0 !important;">
+                                <div class="feature-icon"></div>
+                                <div class="feature-text">A自动数字化和文档转换的日常任务*</div>
+                              </div>
+                              <div class="item-comment">*Corporate版</div>
+                            </div>
+                          </div>
+                          <div class="link">
+                            <a href="http://www.abbyy.com/pt-br/baixar/finereader/" class="button"  title="下载试用版" title-en="Baixar versão de teste"ga-class="baixar-versão-de-teste-button" target="">下载试用版</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 ">
+                    <div class="product-recserver" style="background-image:url(Images/back_pc.png)">
+                      <div class="product-feature">
+                        <div class="feature-content">
+                          <div class="description">
+                            <div class="product-icon">
+                              <img src="assets/rs_77x77.svg" alt="" />
+                            </div>
+                            <div class="product-title">
+                              <h2>ABBYY Recognition Server</h2>
+                              <p>大公司</p>
+                            </div>
+                            <div class="feature-list">
+                              <div class="feature-item">
+                                <div class="feature-icon"></div>
+                                <div class="feature-text">处理中大量文件</div>
+                              </div>
+                              <div class="feature-item">
+                                <div class="feature-icon"></div>
+                                <div class="feature-text">创建数字档案</div>
+                              </div>
+                              <div class="feature-item">
+                                <div class="feature-icon"></div>
+                                <div class="feature-text">与您的ECM系统集成并与任何扫描仪或MFP使用</div>
+                              </div>
+                              <div class="feature-item" style="margin-bottom: 0 !important;">
+                                <div class="feature-icon"></div>
+                                <div class="feature-text">大容量的可扩展性</div>
+                              </div>
+                              <div class="item-comment">&nbsp;</div>
+                            </div>
+                          </div>
+                          <div class="link">
+                            <a href="https://www.abbyy.com/pt-br/recognition-server/trial/?purpose=trial​" class="button "  title="下载试用版" title-en="Solicitar Demo"ga-class="solicitar demo-button" target="">下载试用版</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </section>
+              </div>
+              
+            </div>
+          </section>
+    
+      </main>
+      </div>
+      <footer class="">
+        <nav class="footer-socials-links">
+            <div class="container">
+                <ul class="socials-bar">
+                        <li><a class="sl sl-linkedin" href="https://www.linkedin.com/company/abbyy" title="LinkedIn" ga-class="footer"></a></li>
+                        <li><a class="sl sl-facebook" href="http://www.facebook.com/ABBYY3A" title="Facebook" ga-class="footer"></a></li>
+                        <li><a class="sl sl-twitter" href="http://twitter.com/ABBYY_Brasil/" title="Twitter" ga-class="footer"></a></li>
+                        <li><a class="sl sl-youtube" href="http://www.youtube.com/user/ABBYYBrasil/" title="Youtube" ga-class="footer"></a></li>
+                        <li><a class="sl sl-blog-abbyy" href="http://www.myabbyy.com.br/?_ga=1.44063085.893076901.1430142451" title="Blog da ABBYY" ga-class="footer"></a></li>
+                </ul>
+                <ul class="contacts-bar pull-right">
+                  <li><img src="assets/qq_grey.svg"><a href="tel:1275504959">1275504959</a></li>
+                  <li><img src="assets/email_grey.svg"><a href="mailto:sales@abbyy.cn">sales@abbyy.cn</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="footer-links">
+              <div class="container">
+                <ul class="separated-link-bar pull-right">
+                        <li><a href="http://www.abbyy.com/pt-br/contatos/" title="联系" ga-class="footer">联系</a></li>
+                        <li><a href="http://www.abbyy.com/legal/" title="法律" ga-class="footer">法律</a></li>
+                        <li><a href="http://www.abbyy.com/privacy/" title="隐私权政策" ga-class="footer">隐私权政策</a></li>
+                        <li><a href="https://www.abbyy.cn/cookie-policy/" title="Cookie政策" ga-class="footer">Cookie政策</a></li>
+                        <li><a href="https://www.abbyy.cn/feedback/" title="意见反馈" ga-class="footer">意见反馈</a></li>
+                        <li><a href="http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action" title="沪ICP备15025877号" ga-class="footer">沪ICP备15025877号</a></li>
+                </ul>
+                <div class="copyright pull-left">© 2020 ABBYY. 所有的权利都得到保障</div>
+              </div>
+          </nav>
+        </footer>
+</body>
+</html>

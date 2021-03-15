@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 22 14" style="enable-background:new 0 0 22 14;" xml:space="preserve"
+>
+<style type="text/css">
+	.st0{fill:#043CB2;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:#F90805;}
+	.st3{fill:#FBF9F9;}
+	.st4{fill:#FFFFFF;}
+</style>
+<g transform="scale(0.916666667, 0.875)">
+<polygon class="st0" points="0,0 12,0 24,0 24,16 12,16 0,16 "/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1078.1609" y1="1659.0162" x2="-1099.269" y2="1667.1188" gradientTransform="matrix(0.5906 0 0 0.7874 649.0242 -1305.5143)">
+	<stop  offset="0" style="stop-color:#FBF9F9"/>
+	<stop  offset="0.45" style="stop-color:#FBF9F9"/>
+	<stop  offset="0.8" style="stop-color:#FBF9F9"/>
+	<stop  offset="1" style="stop-color:#FBF9F9"/>
+</linearGradient>
+<polygon class="st1" points="12,7 7.5,4 12,1 12,0 10.5,0 6,3 1.5,0 0,0 0,1 4.5,4 0,7 0,8 1.5,8 6,5 10.5,8 12,8 "/>
+<polygon class="st2" points="12,7.6 6.6,4 12,0.3 12,0 11.5,0 6,3.6 0.6,0 0,0 0,0.3 5.5,4 0,7.6 0,8 0.6,8 6,4.3 11.5,8 12,8 "/>
+<polygon class="st3" points="5,0 7,0 7,2.7 12,2.7 12,5.3 7,5.3 7,8 5,8 5,5.3 0,5.3 0,2.7 5,2.7 "/>
+<polygon class="st2" points="6.6,0 6.6,3.2 12,3.2 12,4.8 6.6,4.8 6.6,8 5.4,8 5.4,4.8 0,4.8 0,3.2 5.4,3.2 5.4,0 "/>
+<circle class="st4" cx="16" cy="7" r="1"/>
+<circle class="st4" cx="19" cy="11" r="1"/>
+<circle class="st4" cx="7.5" cy="12.5" r="1.5"/>
+<ellipse class="st4" cx="20" cy="4" rx="1" ry="1"/>
+</g>
+</svg>
