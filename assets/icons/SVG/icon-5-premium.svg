@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 77 77" style="enable-background:new 0 0 77 77;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C60C30;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:10;}
+	.st4{opacity:0.6;fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:10;}
+</style>
+<g id="_x31_48b_9_">
+	<circle class="st0" cx="38.5" cy="38.5" r="38.5"/>
+	<g>
+		<g>
+			<path class="st1" d="M49.93,29L55,36.61v0.65L38.5,56.51L22,37.26v-0.74L26.18,29H49.93 M51,27H25l-5,9v2l18,21h1l18-21v-2L51,27
+				L51,27z"/>
+		</g>
+		<line class="st2" x1="21" y1="37" x2="56" y2="37"/>
+		<polyline class="st3" points="26,28 32,37 38.5,28 45,37 50,28 		"/>
+	</g>
+	<line class="st4" x1="60" y1="37" x2="64" y2="37"/>
+	<line class="st4" x1="17" y1="37" x2="13" y2="37"/>
+	<line class="st3" x1="22" y1="24" x2="19" y2="21"/>
+	<line class="st4" x1="38" y1="23" x2="38" y2="18"/>
+	<line class="st3" x1="54" y1="24" x2="57" y2="21"/>
+</g>
+</svg>
